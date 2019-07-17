@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(back.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: sans-serif;
+}
+
+.login {
+    background: #fcfcfa;
+    color: #a8ff3e;
+    top: 50%;
+    left: 40%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.user {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -60px;
+    left: calc(95% - 70%);
+}
+
+h1 {
+    margin: 0;
+    padding: 0px, 0, 20px;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+
+p {
+    color: #ff0b55;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type=email] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #673ab7;
+    font-size: 16px;
+}
+
+input [type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b31e6f;
+    color: #d9e787;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+input [type="submite"]:hover {
+    cursor: pointer;
+    background: #0097a7;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #069b1a;
+}
+
+a.hover {
+    color: red;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #e75613;
+}
+
+.submitbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #45eb2f;
+}

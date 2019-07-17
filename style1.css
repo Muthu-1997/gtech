@@ -1,0 +1,61 @@
+body{
+  
+    background-color:#fcf594;
+}
+.brand{
+    background-color:#f3ef18;
+}
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: rgb(40, 218, 149);
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: rgb(163, 28, 241);
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 20px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+     .plants{
+         background-color:#f5e509;
+     }
+  /* Facebook */
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-Instagram {
+    background: #ffa3ac;
+    color: white;
+  }
+
+  
